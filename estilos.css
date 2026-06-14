@@ -37,6 +37,9 @@ a {
 
 a:hover {
     background-color: #ff9800;
+    transform: scale(1.05);
+    transition: 0.3s
+
 }
 pre {
     background-color: black;
@@ -44,9 +47,19 @@ pre {
     padding: 10px;
     border-radius: 10px;
     text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 90%;
+    margin: 10px auto;
 }
 h2 {
     margin-top: 20px;
+}
+p {
+    margin-bottom: 15px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
 }
 .container {
     max-width: 1200px;
