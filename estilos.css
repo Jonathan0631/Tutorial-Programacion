@@ -48,8 +48,9 @@ pre {
     border-radius: 10px;
     text-align: left;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    max-width: 90%;
+    max-width: 700%;
     margin: 10px auto;
+    font-size: 15px;
 }
 h2 {
     margin-top: 20px;
