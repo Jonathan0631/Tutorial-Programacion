@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: #00ffd5;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: #00aaff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #ff9800;
+}
