@@ -6,25 +6,39 @@
 </head>
 <body>
    <h1>📂 Archivos</h1>
-<p>Los archivos permiten guardar información en el computador y también leerla cuando sea necesario.</p>
+<p>Los archivos sirven para guardar información en el computador, como escribir en un cuaderno para usarlo después.</p>
+
+<p>Por ejemplo, puedes guardar nombres, textos o datos importantes.</p>
 
 <h2>🔹 Básico</h2>
-<p>Ejemplo sencillo para guardar texto en un archivo:</p>
+<p>Ejemplo sencillo para guardar información en un archivo:</p>
 <pre>
 archivo = open("texto.txt", "w")
 archivo.write("Hola")
 archivo.close()
 </pre>
-<p>Este código crea un archivo llamado "texto.txt" y guarda la palabra "Hola".</p>
+<p>Explicación del código:</p>
+<ul>
+    <li><b>open("texto.txt", "w"):</b> crea un archivo para escribir</li>
+    <li><b>write("Hola"):</b> guarda la palabra Hola</li>
+    <li><b>close():</b> cierra el archivo</li>
+</ul>
+    
 <h2>🔹 Intermedio</h2>
-<p>Ahora leemos el contenido de un archivo:</p>
+<p>Ahora vamos a leer lo que guardamos en el archivo:</p>
 <pre>
 archivo = open("texto.txt", "r")
 contenido = archivo.read()
 print(contenido)
 archivo.close()
 </pre>
-<p>Este código abre el archivo y muestra su contenido en pantalla.</p>
+<p>Explicación del código:</p>
+<ul>
+    <li><b>"r":</b> significa leer el archivo</li>
+    <li><b>read():</b> obtiene el contenido</li>
+    <li><b>print:</b> muestra el contenido en pantalla</li>
+</ul>
+    
 <h2>🔹 Ejercicio</h2>
 <p>Intenta guardar un nombre en un archivo.</p>
 <h2>🔹 Solución</h2>
@@ -33,7 +47,8 @@ archivo = open("nombre.txt", "w")
 archivo.write("Juan")
 archivo.close()
 </pre>
-<p>Así se guarda correctamente un nombre en un archivo.</p>
+<p>Esta es la forma correcta de guardar un nombre en un archivo.</p>
+<p>En resumen, los archivos permiten guardar información para usarla después cuando la necesites.</p>
 <p><a href="index.html">⬅ Volver al inicio</a></p>
 </body>
 </html>
