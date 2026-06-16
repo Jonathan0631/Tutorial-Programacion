@@ -4,13 +4,17 @@
     <title>Funciones</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
-  <h1>⚙️ Funciones</h1>
 
-<p>Las funciones son como un botón que guarda una acción para usarla cuando quieras.</p>
+<h1>⚙️ Funciones</h1>
 
-<p>Esto ayuda a no repetir el código muchas veces.</p>
-    
+<p>
+Las funciones son bloques de código que permiten ejecutar una acción cuando se necesite, evitando repetir instrucciones varias veces.
+</p>
+
+<!-- ================== EJEMPLO ================== -->
+
 <h2>Ejemplo</h2>
 
 <h3>Código</h3>
@@ -34,51 +38,97 @@ Hola Juan
 
 <hr>
 
+<!-- ================== BÁSICO ================== -->
+
 <h2>🔹 Básico</h2>
+
 <p>Ejemplo sencillo de una función:</p>
+
+<h3>Código</h3>
 <pre>
 def saludar():
     print("Hola")
+
 saludar()
 </pre>
-<p>Explicación del código:</p>
 
-<ul>
-    <li><b>def:</b> crea una función</li>
-    <li><b>saludar():</b> nombre de la función</li>
-    <li><b>print:</b> muestra texto</li>
-</ul>
+<h3>Explicación</h3>
+<p>
+Se define una función sin parámetros que muestra el mensaje "Hola" cuando es llamada.
+</p>
 
-<p>Este código muestra un saludo.</p>
+<h3>Salida</h3>
+<pre>
+Hola
+</pre>
+
+<hr>
+
+<!-- ================== INTERMEDIO ================== -->
 
 <h2>🔹 Intermedio</h2>
-    
-<p>Ahora usamos un nombre:</p>
+
+<p>Ahora usamos una función con parámetro:</p>
+
+<h3>Código</h3>
 <pre>
 def saludar(nombre):
     print("Hola", nombre)
+
 saludar("Juan")
 </pre>
-<p>Explicación del código:</p>
 
-<ul>
-    <li>La función recibe un nombre</li>
-    <li>Luego muestra el mensaje con ese nombre</li>
-</ul>
+<h3>Explicación</h3>
+<p>
+La función recibe un nombre como parámetro y lo utiliza para mostrar un saludo personalizado.
+</p>
 
-<p>Este código mostrará: Hola Juan</p>
+<h3>Salida</h3>
+<pre>
+Hola Juan
+</pre>
+
+<hr>
+
+<!-- ================== EJERCICIO ================== -->
 
 <h2>🔹 Ejercicio</h2>
-<p>Intenta crear una función que diga "Bienvenido".</p>
 
-<h2>🔹 Solución</h2> 
+<p>
+Intenta crear una función que diga "Bienvenido".
+</p>
+
+<h2>🔹 Solución</h2>
+
+<h3>Código</h3>
 <pre>
 def mensaje():
     print("Bienvenido")
+
 mensaje()
 </pre>
-<p>Así se crea una función correctamente.</p>
-<p>En resumen, las funciones ayudan a reutilizar código fácilmente.</p>
-<p><a href="index.html">⬅ Volver al inicio</a></p>
+
+<h3>Explicación</h3>
+<p>
+Se crea una función llamada <strong>mensaje</strong> que muestra un texto en pantalla cuando es ejecutada.
+</p>
+
+<h3>Salida</h3>
+<pre>
+Bienvenido
+</pre>
+
+<hr>
+
+<!-- ================== CONCLUSIÓN ================== -->
+
+<p>
+En resumen, las funciones permiten organizar y reutilizar código de manera eficiente.
+</p>
+
+<p>
+<a href="index.html">⬅ Volver al inicio</a>
+</p>
+
 </body>
 </html>
