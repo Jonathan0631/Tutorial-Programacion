@@ -4,9 +4,16 @@
     <title>Archivos</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
-   <h1>📂 Archivos</h1>
-<p>Los archivos sirven para guardar información en el computador, como escribir en un cuaderno para usarlo después.</p>
+
+<h1>📂 Archivos</h1>
+
+<p>
+Los archivos permiten guardar información en el computador, de forma similar a escribir en un cuaderno para usarla después.
+</p>
+
+<!-- ================== EJEMPLO ================== -->
 
 <h2>Ejemplo</h2>
 
@@ -19,7 +26,7 @@ archivo.close()
 
 <h3>Explicación</h3>
 <p>
-Este código crea un archivo en modo escritura llamado <strong>datos.txt</strong> y guarda el texto "Hola mundo".
+Este código crea un archivo llamado <strong>datos.txt</strong> en modo escritura y guarda el texto "Hola mundo".
 </p>
 
 <h3>Salida</h3>
@@ -29,53 +36,95 @@ Se crea el archivo datos.txt con el contenido: Hola mundo
 
 <hr>
 
+<!-- ================== BÁSICO ================== -->
+
 <h2>🔹 Básico</h2>
+
 <p>Ejemplo sencillo para guardar información en un archivo:</p>
+
+<h3>Código</h3>
 <pre>
 archivo = open("texto.txt", "w")
 archivo.write("Hola")
 archivo.close()
 </pre>
-<p>Explicación del código:</p>
-<ul>
-    <li><b>open("texto.txt", "w"):</b> crea un archivo para escribir</li>
-    <li><b>write("Hola"):</b> guarda la palabra Hola</li>
-    <li><b>close():</b> cierra el archivo</li>
-</ul>
-    
+
+<h3>Explicación</h3>
+<p>
+Este código crea un archivo llamado <strong>texto.txt</strong> en modo escritura y guarda el texto "Hola".
+</p>
+
+<h3>Salida</h3>
+<pre>
+Se crea el archivo texto.txt con el contenido: Hola
+</pre>
+
+<hr>
+
+<!-- ================== INTERMEDIO ================== -->
+
 <h2>🔹 Intermedio</h2>
+
 <p>Ahora vamos a leer lo que guardamos en el archivo:</p>
+
+<h3>Código</h3>
 <pre>
 archivo = open("texto.txt", "r")
 contenido = archivo.read()
 print(contenido)
 archivo.close()
 </pre>
-<p>Explicación del código:</p>
-<ul>
-    <li><b>"r":</b> significa leer el archivo</li>
-    <li><b>read():</b> obtiene el contenido</li>
-    <li><b>print:</b> muestra el contenido en pantalla</li>
-</ul>
-    
+
+<h3>Explicación</h3>
+<p>
+Este código abre el archivo en modo lectura, obtiene su contenido y lo muestra en pantalla.
+</p>
+
+<h3>Salida</h3>
+<pre>
+Hola
+</pre>
+
+<hr>
+
+<!-- ================== EJERCICIO ================== -->
+
 <h2>🔹 Ejercicio</h2>
-<p>Intenta guardar un nombre en un archivo.</p>
+
+<p>
+Intenta guardar un nombre en un archivo.
+</p>
+
 <h2>🔹 Solución</h2>
+
+<h3>Código</h3>
 <pre>
 archivo = open("nombre.txt", "w")
 archivo.write("Juan")
 archivo.close()
 </pre>
-<p>Explicación del código:</p>
 
-<ul>
-    <li><b>open("nombre.txt", "w"):</b> crea un archivo para escribir</li>
-    <li><b>write("Juan"):</b> guarda el nombre en el archivo</li>
-    <li><b>close():</b> cierra el archivo</li>
-</ul>
+<h3>Explicación</h3>
+<p>
+Se crea un archivo llamado <strong>nombre.txt</strong> y se guarda el texto "Juan" en su interior.
+</p>
 
-<p>Este código guarda el nombre en un archivo correctamente.</p>
-<p>En resumen, los archivos permiten guardar información para usarla después cuando la necesites.</p>
-<p><a href="index.html">⬅ Volver al inicio</a></p>
+<h3>Salida</h3>
+<pre>
+Se crea el archivo nombre.txt con el contenido: Juan
+</pre>
+
+<hr>
+
+<!-- ================== CONCLUSIÓN ================== -->
+
+<p>
+En resumen, los archivos permiten guardar información para usarla posteriormente cuando sea necesario.
+</p>
+
+<p>
+<a href="index.html">⬅ Volver al inicio</a>
+</p>
+
 </body>
 </html>
